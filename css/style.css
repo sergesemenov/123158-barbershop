@@ -1,21 +1,306 @@
+html,
 body {
 	font-family: "PT Sans Narrow", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
 	font-weight: normal;
+	min-width: 1122px;
+  	min-height: 1750px;
+  	margin: 0;
+  	padding: 0;
 }
 
-li {
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
-h2 {
-	font-size: 30px;
-	line-height: 42px;
-	font-weight: bold;
-	text-transform: uppercase;
+.to-left {
+	float: left;
+}
+
+.main-header {
+	margin-bottom: 60px;
+	outline: 1px solid #000;
+}
+
+/*Catalog header*/
+.header-logo {
+	float: left;
+	width: 140px;
+	height: 70px;
+}
+/*Catalog header*/
+
+/*Catalog headline*/
+.headline {
+	width: 320px;
+	min-height: 70px;
+	margin-bottom: 50px;
+	outline: 1px solid #000;
+}
+
+.headline h2 {
+	margin-bottom: 30px;
+}
+
+/*Catalog headline-tem*/
+.headline-item {
+	width: 630px;
+	min-height: 70px;
+}
+
+.breadcrumbs ul {
+	padding: 0;
+	text-align: left;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+}
+/*Catalog headline*/
+
+/*shop-content*/
+.shop-content {
+	width: 940px;
+	height: 690px;
+	outline: 1px solid #000;
+}
+
+.catalog-filters {
+	width: 190px;
+	height: 570px;
+	float: left;
+	margin-right: 45px;
+	outline: 1px solid #000;
+}
+
+.manufacturer {
+	margin-bottom: 50px;
+}
+
+.groups-goods ul {
+	margin-bottom: 50px;
+}
+
+.catalog-goods {
+	float: right;
+	width: 700px;
+	min-height: 680px;
+	outline: 1px solid #000;
+}
+
+.items {
+	font-size: 0;
+	width: 700px;
+	height: 590px;
+	margin-bottom: 100px;
+}
+
+.item {
+	display: inline-block;
+	font-size: 14px;
+	width: 220px;
+	min-height: 275px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	outline: 1px solid #000;
+}
+
+.item3,
+.item6 {
+	margin-right: 0;
+}
+
+.item4,
+.item5,
+.item6 {
+	vertical-align: bottom;
+	margin-bottom: 0;
+}
+
+.item-name {
+	padding-left: 15px; 
+}
+
+.item-price-buy {
+	width: 195px;
+	height: 45px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	outline: 1px solid #000;
+}
+
+.pagination {
+	width: 195px;
+	height: 45px;
+	outline: 1px solid #000;
+	margin-bottom: 50px;
+}
+
+.pagination li {
+	display: inline-block;
+	list-style: none;
+}
+/*shop-content*/
+
+/*item-content*/
+
+.item-content {
+	width: 940px;
+	height: 670px;
+	outline: 1px solid #000;
+}
+
+.item-photos {
+	float: left;
+	width: 460px;
+	height: 670px;
+	outline: 1px solid #000;
+	margin-bottom: 50px;
+}
+
+.item-photos-preview {
+	display: inline-block;
+}
+
+.preview2,
+.preview3 {
+	margin-right: 15px;
+}
+
+.item-description {
+	float: right;
+	width: 400px;
+	height: 530px;
+	padding-top: 20px;
+}
+
+.item-info {
+	width: 390px;
+	margin-bottom: 40px;
+}
+
+.availability {
+	float: left;
+}
+
+.article {
+	float: right;
+}
+
+.item-description-text {
+	clear: both;
+	width: 390px;
+	min-height: 140px;
+	margin-bottom: 40px;
+}
+
+.item-price-buy.to-left {
+	margin-bottom: 70px;
+}
+
+.item-description-headline {
+	clear: both;
+}
+
+
+
+/*item-content*/
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	outline: 1px solid #000;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+	outline: 1px solid #000;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
+	outline: 1px solid #000;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+	width: 940px;
+    margin-bottom: 80px;
+    margin: 0 auto;
+}
+
+.features-item {
+	float: left;
+  	width: 300px;
+	min-height: 175px;
+	outline: 1px solid #000;
+	margin-right: 20px;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.index-content {
+	margin-bottom: 35px;
+    padding: 50px 80px;
+}
+
+.index-content-left {
+	float: left;
+    width: 380px;
+    min-height: 330px;
+}
+
+.index-content-right {
+	float: right;
+    width: 300px;
+    min-height: 330px;
+}
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+}
+
+.footer-contacts {
+	float: left;
+  	width: 320px;
+	min-height: 90px;
+	margin-right: 60px;
+}
+
+.footer-social {
+	float: left;
+  	width: 180px;
+	min-height: 90px;
+}
+
+.footer-copyright {
+	float: right;
+  	width: 180px;
+	min-height: 90px;
 }
